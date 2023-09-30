@@ -1,0 +1,32 @@
+.wowUlam {
+    color:silver;
+    font-style: georgia;
+    font-weight: bolder;
+   background-color: rgb(159, 140, 228);
+   font-size: 50px;
+   padding: 100px;
+   border: 5px rgb(80, 107, 143) solid;
+   text-align: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background-image: url(starrynight.jpg);
+   line-height: 3em;
+}
+.wowulam{
+    color:whitesmoke;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+   background-color: gray;
+   font-size: 50px;
+   padding: 100px;
+   border: 5px rgb(106, 172, 184) dotted;
+   margin-left: 75px;
+   margin-right: 75px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background-image: url(dawn.jfif);
+   line-height: 2em;
+}
