@@ -1,0 +1,39 @@
+.h1{
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    padding: 10px;
+}
+body{
+    background-color: cyan;
+}
+.wow{
+    height: 0%; 
+    letter-spacing: 2px;
+    line-height: 0%;
+}
+hr{
+    border: 1px solid rgb(223, 218, 218);
+    width: 95%;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-top: 40px;
+    line-height: 0%;
+}
+.silver{
+    color: hsl(0, 0%, 75%);
+}
+.violet{
+    color: rgb(255,0,255);
+}
+.orange{
+    color: rgb(255, 165, 0);
+}
+.wowulam{
+    font-weight: bold;
+    text-decoration: underline;
+
+}

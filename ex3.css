@@ -1,0 +1,64 @@
+body{
+    background-color: cyan;
+}
+div {
+    width: 300px;
+    height: 300px;
+}
+.box1{
+    text-align: left;
+    font-style: italic;
+    background-color: blue;
+}
+.orange {
+    color: orange;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+.box2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: Arial;
+    background-color: orange;
+}
+.box3{
+    background-color: beige;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: dotted;
+}
+.box4{
+    color: green;
+    font-variant: small-caps;
+    background-color: yellow;
+    border: 5px green dashed;
+}
+.box5{
+    text-align: center;
+    font-family: verdana;
+    font-style: oblique;
+    font-weight: bold;
+}
+.box6{
+    background-color: brown;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.box7{
+    background-color: blue;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}

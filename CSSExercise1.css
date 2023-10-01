@@ -1,0 +1,25 @@
+h1{
+    color:white;
+    background-color:green;
+    padding: 10px;
+    
+
+    }
+    h3{
+        color: red;
+    }
+    a{
+        color: green;
+        text-decoration: underline;
+    }
+    em{
+        color:blue;
+        font-style: italic;
+    }
+    img{
+        border-radius: 50%;
+        width: 100%;
+    }
+    strong{
+        color: blue;
+    }
