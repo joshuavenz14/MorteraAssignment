@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="ACTIVITYMiniForm.css">
+</head>
+<body>
+
+    <h1>User Information Form</h1>
+
+    <form id="userInfoForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script>
+        function submitForm() {
+            // Get form values
+            var firstName = document.getElementById('firstName').value;
+            var lastName = document.getElementById('lastName').value;
+            var email = document.getElementById('email').value;
+            var age = document.getElementById('age').value;
+
+            // Display values in the console with formatting
+            console.log("User Information:");
+            console.log("First Name: " + firstName);
+            console.log("Last Name: " + lastName);
+            console.log("Email: " + email);
+            console.log("Age: " + age);
+
+        }
+    </script>
+
+</body>
+</html>
