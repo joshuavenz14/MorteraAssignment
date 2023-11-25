@@ -1,0 +1,24 @@
+form{
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff85;
+    border-radius: 8pxrgba(0, 0, 0, 0.522);
+    box-shadow: 0 0 10px rgba(253, 255, 255, 0.644);
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #181724;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #070808, #eff0f1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
